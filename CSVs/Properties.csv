@@ -1,0 +1,19 @@
+seller_type,bedroom,layout_type,property_type,locality,price,area,furnish_type,bathroom,status,city
+OWNER,2,BHK,Independent Floor,kamakshipalya,20000,1140,Semi-Furnished,2,Not Booked,Bangalore
+OWNER,2,BHK,Independent House,Kadugodi Industrial Area,8000,840,Semi-Furnished,2,Not Booked,Bangalore
+OWNER,2,BHK,Independent House,Koramangala,21000,1000,Semi-Furnished,2,Not Booked,Bangalore
+OWNER,1,BHK,Apartment,Sadduguntepalya,9000,550,Semi-Furnished,1,Not Booked,Bangalore
+OWNER,3,BHK,Apartment,Chandapura,17000,1230,Furnished,3,Not Booked,Bangalore
+OWNER,3,BHK,Apartment,Yelahanka New Town,14000,1200,Semi-Furnished,2,Not Booked,Bangalore
+AGENT,3,BHK,Independent Floor,Golf Links,412000,2856,Unfurnished,3,Not Booked,Delhi
+AGENT,4,BHK,Independent Floor,Green Park Extension,411000,5222,Unfurnished,4,Not Booked,Delhi
+AGENT,5,BHK,Villa,New Friends Colony,526000,6852,Unfurnished,4,Not Booked,Delhi
+AGENT,4,BHK,Villa,New Friends Colony,325000,3521,Unfurnished,4,Not Booked,Delhi
+AGENT,4,BHK,Independent Floor,New Friends Colony,412000,5521,Unfurnished,4,Not Booked,Delhi
+AGENT,4,BHK,Independent Floor,New Friends Colony,352000,6521,Unfurnished,4,Not Booked,Delhi
+AGENT,4,BHK,Independent Floor,New Friends Colony,285000,5412,Unfurnished,4,Booked,Delhi
+AGENT,5,BHK,Independent House,Friends Colony,652000,5211,Unfurnished,5,Booked,Delhi
+AGENT,3,BHK,Independent Floor,Rajouri Garden,38000,1800,Semi-Furnished,3,Booked,Delhi
+AGENT,3,BHK,Independent Floor,Bali Nagar,41500,1800,Semi-Furnished,3,Booked,Delhi
+AGENT,3,BHK,Independent Floor,Rajouri Garden,35000,1600,Semi-Furnished,4,Not Booked,Delhi
+AGENT,2,BHK,Independent Floor,Ramesh Nagar,25100,1000,Semi-Furnished,2,Not Booked,Delhi
