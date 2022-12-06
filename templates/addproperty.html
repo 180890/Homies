@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    body{
+    background: -webkit-linear-gradient(left, white, #00c6ff);
+    
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://cdn-icons-png.flaticon.com/512/195/195492.png" alt="rocket_contact"/>
+            </div>
+            <form action="/addproperty" method="post">
+                <h3 style="font-family: 'Pacifico', sans-serif;">Add a Property</h3>
+               <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" name="propName" class="form-control" placeholder="Enter Property Name *" value="" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="propPrice" class="form-control" placeholder="Enter Property Price *" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="propPhone" class="form-control" placeholder="Enter Your Phone Number *" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" aria-label="Enter Property Type" name="propType" required>
+                              <option selected>Enter Property Type</option>
+                              <option value="Modern Student Housing">Modern Student Housing</option>
+                              <option value="Co-living for Professionals">Co-living for Professionals</option>
+                              <option value="Managed Apartments">Managed Apartments</option>
+
+                            </select>                            
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" aria-label="Enter Property City" name="propCity" required>
+                              <option selected>Enter Property City</option>
+                              <option value="Bengaluru">Bengaluru</option>
+                              <option value="Chennai">Chennai</option>
+                              <option value="Coimbatore">Coimbatore</option>
+                              <option value="Dehradun">Dehradun</option>
+                              <option value="Delhi">Delhi</option>
+                              <option value="Mumbai">Mumbai</option>
+                              <option value="Hyderabad">Hyderabad</option>
+                              <option value="Indore">Indore</option>
+                              <option value="Greater Noida">Greater Noida</option>
+                              <option value="Pune">Pune</option>
+                              <option value="Vadodara">Vadodara</option>
+                              <option value="Vidyanagar">Vidyanagar</option>
+                              <option value="Ahmedabad">Ahmedabad</option>
+                              <option value="Nagpur">Nagpur</option>
+                              <option value="Visakhapatnam">Visakhapatnam</option>
+                              <option value="Manipal">Manipal</option>
+                              <option value="Gurgaon">Gurgaon</option>
+                              <option value="Vijayawada">Vijayawada</option>
+                              <option value="Jaipur">Jaipur</option>
+                              <option value="Gunter">Gunter</option>
+                              <option value="Gandhinagar">Gandhinagar</option>
+                              <option value="Kochi">Kochi</option>
+                              <option value="Belgaum">Belgaum</option>
+                              <option value="Kota">Kota</option>
+                            </select>                            
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" aria-label="Enter Occupency" name="occupency" required>
+                              <option selected>Enter Occupency</option>
+                              <option value="Single Occupency">Single Occupency</option>
+                              <option value="Double Occupency">Double Occupency</option>
+                              <option value="Triple Occupency">Triple Occupency</option>
+                              <option value="Quadraple Occupency">Quadraple Occupency</option>
+                              <option value="Quintuple Occupency">Quintuple Occupency</option>
+                              <option value="Dorm">Dorm</option>
+
+                            </select>                            
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" aria-label="Enter Gender Occupency" name="gendOccupency" required>
+                              <option selected>Enter Gender Occupency</option>
+                              <option value="Male">Male</option>
+                              <option value="Female">Female</option>
+                              <option value="Male/Female">Male/Female</option>
+
+                            </select>                            
+                        </div>
+                        Select Amenities:
+                        <div class="form-group" required>
+                        <div class="form-check">
+                            
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox1" value="Attached Balcony" name="amenities" />
+                              <label class="form-check-label " for="inlineCheckbox1">Attached Balcony</label>
+                            </div>
+                            
+                            <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox2" value="Air Conditioning" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox2">Air Conditioning</label>
+                            </div>
+                            
+                            <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox3" value="Storage Shelf" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox3">Storage Shelf</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox4" value="Spacious Cupboard" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox3">Spacious Cupboard</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox5" value="Desert Cooler" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox3">Desert Cooler</label>
+                            </div>
+                           <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox6" value="Shared Washroom" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox3">Shared Washroom</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input form-control" type="checkbox" id="inlineCheckbox7" value="Window" name="amenities"  />
+                              <label class="form-check-label" for="inlineCheckbox3">Window</label>
+                            </div>
+                           </div> 
+                           
+                        <div class="form-group" >
+                            <textarea name="propAddress" class="form-control" placeholder="Enter Property Address *" style="width: 100%; height: 90px;" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="propDetails" class="form-control" placeholder="Enter Property Details *" style="width: 100%; height: 150px;" required></textarea>
+                        </div>
+                        <div class="form-group">
+                        <label class="form-label" for="customFile">Upload property Image</label>
+                        <input type="file" class="form-control" id="customFile" name="propImage" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Add Property" />
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </form>
+</div>
+</body>
+</html>
