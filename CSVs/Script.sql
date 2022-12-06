@@ -4,3 +4,5 @@ CREATE TABLE Properties (`property_id` int auto_increment primary key ,`seller_t
  `bathroom` int, `status` text,`city` text);
 CREATE TABLE Users (`user_id` int auto_increment primary key,`user_name` text, `email` text, `phone number` text, `password` text);
 select * from properties;
+Alter table Properties add column user_id int ;
+Alter table Properties add foreign key(user_id) references Users(user_id);
